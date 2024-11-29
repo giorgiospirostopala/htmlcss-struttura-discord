@@ -38,13 +38,24 @@ button.scarica:hover{
     padding: 10px;
 }
 
+.apri{
+    background-color: #23272A;
+    padding: 10px 13px;
+    color: white;
+}
+
+button.apri:hover{
+    background-color: #131516;
+}
+
 #first-text{
     padding: 0% 10%;
 }
 
-.bottonONI{
+.bottononi{
     padding: 10px;
-    
+    display: flex;
+    gap: 15px;
 }
 
 .first{
@@ -56,6 +67,15 @@ button.scarica:hover{
     padding: 10% 20%;
     text-align: center;
     flex-wrap: wrap;
+    background-image: url(/img/01HZPN9XSQTZNQ61ZY6FH47BS1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header-photo{
+    max-width: 100%;
+    height: auto;
 }
 
 h1{
