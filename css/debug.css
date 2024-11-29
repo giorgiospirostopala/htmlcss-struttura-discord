@@ -64,8 +64,10 @@ h2{
 
 footer{
     background-color: #23272A;
-    height: 550px;
+    height: 350px;
     display: flex;
+    justify-content: space-around;
+    padding: 65px 150px
 }
 
 h3, h5{
