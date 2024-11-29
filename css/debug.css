@@ -1,19 +1,35 @@
 * {
-    outline: 1px solid red;
+    outline: 1px solid black;
 }
 
-body {
-    outline: 2px solid blue;
+.first{
+    background-image: url();
+    background-color: #476BF2;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10% 20%;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
-header, footer, main, nav, section, article, aside {
-    outline: 1px dashed green;
+h1{
+    padding: 30px 0px;
+    font-size: 43px;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-    outline: 1px dotted purple; 
+.second{
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    color: #000000;
+    padding: 7% 20%;
+    text-align: left;
+    
 }
 
-div {
-    outline: 1px solid orange;
+.images{
+    height: 400px;
+    width: 1900px;
 }
