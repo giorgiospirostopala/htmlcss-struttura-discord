@@ -38,6 +38,21 @@ button.scarica:hover{
     padding: 10px;
 }
 
+.scarica2{
+    background-color: #7189DA;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.scarica2:hover{
+    background-color: #6980cb;
+}
+
+.fotine{
+    border-radius: 10px;
+}
+
 .apri{
     background-color: #23272A;
     padding: 10px 13px;
@@ -115,12 +130,19 @@ h1{
 
 .last{
     background-color: #F6F6F6;
-    padding: 170px;
+    padding: 170px 170px 80px 170px;
     text-align: center;
 }
 
 #fotona{
+    display: flex;
+    margin: 40px 0px;
     height: 500px;
+    justify-content: center;
+}
+
+#only-border{
+    border-radius: 20px;
 }
 
 h2{
@@ -148,6 +170,12 @@ h3, h5{
     font-size: small;
 }
 
+.footer-boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -158,3 +186,10 @@ a{
 
 }
 
+#stelline{
+    background-image: url(/img/forsevannobene.png);
+    background-size: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
