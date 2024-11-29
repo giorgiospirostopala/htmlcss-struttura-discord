@@ -1,0 +1,19 @@
+* {
+    outline: 1px solid red;
+}
+
+body {
+    outline: 2px solid blue;
+}
+
+header, footer, main, nav, section, article, aside {
+    outline: 1px dashed green;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    outline: 1px dotted purple; 
+}
+
+div {
+    outline: 1px solid orange;
+}
