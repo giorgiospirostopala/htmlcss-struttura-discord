@@ -65,4 +65,20 @@ h2{
 footer{
     background-color: #23272A;
     height: 550px;
+    display: flex;
+}
+
+h3, h5{
+    color: #7389DA;
+
+}
+
+.footer-text{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
 }
