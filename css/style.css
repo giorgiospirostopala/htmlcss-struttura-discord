@@ -12,7 +12,7 @@ header{
     gap: 50px;
 }
 
-#logo{
+.logo{
     background-color: none;
     filter: brightness(3);
     height: 35px;
